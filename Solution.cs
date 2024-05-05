@@ -17,10 +17,10 @@ public class Solution
             --frequency[letter - 'a'];
         }
 
-        return calculateMinSteps(frequency);
+        return CalculateMinSteps(frequency);
     }
 
-    private int calculateMinSteps(int[] frequency)
+    private int CalculateMinSteps(int[] frequency)
     {
         int minSteps = 0;
         foreach (int current in frequency)
